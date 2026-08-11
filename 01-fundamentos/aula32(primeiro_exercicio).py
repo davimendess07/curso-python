@@ -11,7 +11,7 @@ try:
     numero_int = int(numero)
     if (numero_int % 2 == 0):
         print(f'{numero} este numero é par')
-    elif (numero_int % 2 == 1):
+    else:
         print(f'{numero} este numero é impar')
 except:
     print('isso não é um número inteiro...')
