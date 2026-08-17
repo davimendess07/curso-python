@@ -9,6 +9,8 @@ print('')
 
 primeiro_nome = input('qual seu primeiro nome? ')
 
+
+
 quantidade_letras = len(primeiro_nome) 
 
 if quantidade_letras <= 4:
@@ -17,4 +19,7 @@ elif quantidade_letras >= 5 and quantidade_letras <= 6:
     print('Seu nome é normal')
 else:
     print('Seu nome é muito grande')
+
+
+        
         
