@@ -1,0 +1,37 @@
+
+do começo dos exercicios até o dia 19/08
+Resumo do que você estudou hoje
+
+Problema — Área do círculo: vírgula no print() insere espaço automático;
+ para casas decimais controladas, usar f-string com :.4f.
+
+Problema — PROD (produto): identificar a operação certa a partir da palavra
+ do enunciado ("produto" = multiplicação) evita fórmulas complicadas demais.
+
+Problema — Média ponderada: peso numa média é multiplicador, não expoente; 
+input('algo') com argumento pode gerar caractere extra na saída em juízes automatizados 
+— usar input() vazio.
+
+Problema — Salário: Runtime Error ≠ Wrong Answer (RE quebra a execução;
+ WA calcula errado); nomes de variável com acento são arriscados em juízes 
+ online; input('') (mesmo vazio entre aspas) pode causar problema — 
+ o padrão seguro é input() sem nada dentro dos parênteses.
+
+Conceito — double em Python: não existe tipo double separado; float do Python
+ já é dupla precisão (64 bits), equivalente ao double de C/Java.
+
+Problema — Valor a pagar (2 peças): conceitos novos:
+
+input().split() lê uma linha e quebra ela em pedaços (por espaço), devolvendo uma
+ lista de strings
+Atribuição múltipla (a, b, c = ...) exige que o número de variáveis bata com o número 
+de itens
+Todo valor vindo de .split() é texto, mesmo se parecer número — precisa converter com 
+variavel = tipo(variavel)
+
+Conceito — chamar uma função: os parênteses () são o que efetivamente executa a função 
+(a "chamada"). Sem parênteses, você só referencia a função, sem rodar nada. O que vai dentro
+ dos parênteses é o argumento; o que a função devolve é o retorno. Em input().split(),
+  são 2 chamadas (input() e .split()), não uma por variável.
+
+
