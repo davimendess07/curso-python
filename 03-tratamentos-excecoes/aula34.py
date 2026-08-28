@@ -8,6 +8,8 @@ Executa uma ação enquanto uma condição for verdadeira
 Loop infinito --> Quando um código não tem fim
 
 um circulo até alguma coisa acontecer
+
+break - vai terminar o laço
 '''
 condicao = True
 

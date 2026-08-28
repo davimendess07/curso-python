@@ -1,4 +1,4 @@
-##62. Operadores de atribuição com operadores aritméticos
+#62. Operadores de atribuição com operadores aritméticos
 
 '''
 Operadores de atribuição
